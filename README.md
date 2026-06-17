@@ -12,13 +12,17 @@ The ideas presented here are based on real-world experience leading digital prod
 
 ---
 
-## ## Why This Repository Exists
+## Why This Repository Exists
 
 My experience with AI-assisted development revealed an interesting pattern: building software became easier, but making good product decisions did not.
 
-AI dramatically reduces the effort required to create features, workflows and even complete applications. However, it does not eliminate the need for prioritization, governance, validation and human judgment. In many cases, those responsibilities become even more important.
+When I started working with AI-assisted development, I assumed that a well-designed set of prompts, rules and skills would be enough to control most errors and hallucinations. I quickly learned that reality was more complex.
 
-As development becomes faster and more accessible, the challenge shifts from building products to making sound decisions about what should be built, how it should be governed and where human oversight remains essential.
+AI systems improve through continuous feedback, refinement and human judgment. New edge cases constantly emerge: ambiguous names, incorrect data sources, conflicting information and unexpected interpretations. Progress is often difficult to measure, especially when working with unstructured data and machine-learning-driven workflows.
+
+At the same time, my perception of AI changed significantly. My early experiences were disappointing and often unreliable, leading me to stop using these tools for a long period. When I returned, I found a much more capable technology. AI had become remarkably effective at accelerating solution design and implementation, but only when combined with clear constraints, governance mechanisms and active human oversight.
+
+This shift led me to a broader question: as software becomes easier to build, what capabilities become more important?
 
 Most conversations about AI focus on tools, models and capabilities. Far less attention is given to the operating models, decision-making processes and governance mechanisms required to build sustainable products with AI.
 
@@ -31,8 +35,9 @@ This raises a different set of questions:
 * How do we validate AI-generated work?
 * How do we create repeatable operating models instead of isolated experiments?
 
-This repository is my attempt to explore those questions and document practical frameworks, lessons learned and real-world observations that can help teams build AI-assisted products without losing product discipline, governance or accountability.
+I created this repository for two reasons. First, to document and refine my own learning. Second, to share practical approaches that may help non-developers and product leaders use AI effectively without assuming that human judgment has become less important.
 
+This repository is my attempt to explore those questions through practical frameworks, lessons learned and real-world observations.
 
 
 ---
@@ -53,71 +58,51 @@ The focus is on product leadership, decision-making, governance, organizational 
 
 ---
 
-## Core Principles
+## What You Will Find Here
 
-### Product Direction Comes Before Implementation
+This repository is not about prompt engineering.
 
-AI can generate solutions.
+It focuses on the practical challenges of building products with AI, including:
 
-It cannot determine which problems are worth solving.
+* Product discovery and validation
+* Structuring AI-assisted development workflows
+* Defining rules, skills and operating models
+* Creating human review systems
+* Managing quality, testing and release governance
+* Avoiding common AI product anti-patterns
+* Turning lessons learned into reusable frameworks
 
-### Human Accountability Cannot Be Delegated
+The central idea is simple:
 
-AI can assist decisions.
+AI makes it easier to build software.
 
-Humans remain accountable for outcomes.
+Product leadership determines what should be built, how it should be governed and where human judgment remains necessary.
 
-### Governance Enables Speed
+## Planned Topics
 
-Well-defined constraints allow teams to move faster with confidence.
+The repository will be expanded over time and is expected to cover:
 
-### Human Review Is Part of the System
-
-Not every decision should be automated.
-
-Human judgment remains essential in critical workflows.
-
-### Every Repeated Mistake Is a Learning Opportunity
-
-Recurring failures should be transformed into processes, frameworks, rules or quality controls.
-
-### Simplicity Beats Complexity
-
-AI often makes it easier to build.
-
-Product leadership determines what should not be built.
-
----
-
-## Topics Covered
-
-This repository will progressively explore topics such as:
-
-* Product Discovery in the Age of AI
-* AI Product Strategy
-* AI Operating Models
-* Rules, Skills and Agents
-* Human-in-the-Loop Systems
-* Quality Assurance for AI-Assisted Development
-* Release Governance
-* AI Product Anti-Patterns
-* Lessons Learned from Real Projects
-
----
-
-## Current Status
-
-This repository is being developed incrementally.
-
-The objective is to document practical knowledge, challenge assumptions and build a reusable body of work that can help teams create better AI-assisted products.
-
+- Product Discovery in the Age of AI
+- AI Product Strategy
+- AI Operating Models
+- Rules, Skills and Agents
+- Human-in-the-Loop Systems
+- Quality Assurance
+- Release Governance
+- AI Product Anti-Patterns
+- Lessons Learned from Real Projects
 ---
 
 ## About the Author
 
-André Moreira is a Product and Operations Leader with more than 15 years of experience leading digital platforms, ticketing, access control and large-scale event operations.
+André Moreira is a Product and Operations Leader with more than 15 years of experience in digital platforms, ticketing, access control and large-scale event operations.
 
-His background spans product management, portfolio governance, agile practices, operational leadership and AI-assisted product development.
+His work combines product leadership, operational governance, agile practices and a background in anthropology. That combination shapes his approach to AI-assisted product development: questioning assumptions, challenging easy answers and treating human judgment as part of the system, not as something to be replaced.
+
+This playbook started after he left a Head of Product role and began using AI to build and validate a new product from scratch. The experience changed his view of AI. He expected more hallucinations and less coherence, but found that AI could support complex product development when given strong direction. At the same time, he learned that AI does not control itself: it requires clear constraints, constant review and iterative refinement.
+
+This repository is part learning record, part practical guide. It is intended for product managers, founders and non-developers who want to use AI to build products and businesses without losing product discipline, governance or accountability.
 
 Professional certifications include PMP, Scrum Alliance certifications and Kanban credentials.
+
 
